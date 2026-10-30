@@ -18,7 +18,7 @@ SERVER_PORT = "25565"
 TARGET_VERSION = "1.21.11"
 
 # LINK TO YOUR ZIP FILE WITH GAME PACK
-ZIP_URL = "https://your-direct-link-here.com"  # <--- СЮДА ПРЯМУЮ ССЫЛКУ НА ZIP (например из Discord)
+ZIP_URL = "https://githubusercontent.com"
 
 # Root folder for Lifestop Launcher based on OS
 if platform.system() == "Windows":
@@ -30,6 +30,7 @@ else:  # Linux (Debian/Millida/Arch)
 
 ctk.set_appearance_mode("dark")
 
+# DICTIONARY FOR LANGUAGE TOGGLE
 LOCALIZATION = {
     "EN": {
         "label": "Enter your nickname:",
@@ -42,14 +43,14 @@ LOCALIZATION = {
         "error": "Error: "
     },
     "RU": {
-        "label": "Введи свой никнейм:",
-        "play": "ИГРАТЬ",
-        "ready": "Статус: Готов",
-        "download": "Загрузка сборки с сайта...",
-        "extract": "Распаковка сборки...",
-        "cmd": "Создание команды запуска...",
-        "launch": "Запуск игры...",
-        "error": "Ошибка: "
+        "label": "Vvedi svoy nikneym:",
+        "play": "IGRAT",
+        "ready": "Status: Gotov",
+        "download": "Zagruzka sborki s sayta...",
+        "extract": "Raspakovka sborki...",
+        "cmd": "Sozdanie komandy zapuska...",
+        "launch": "Zapusk igry...",
+        "error": "Oshibka: "
     }
 }
 
